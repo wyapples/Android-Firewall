@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array
+		name="modes">
+		<item>Block SMS</item>
+		<item>Block Phone Call</item>
+		<item>Block Both</item>
+	</string-array>
+</resources>

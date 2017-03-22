@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:gravity="fill_vertical">
+	<TextView
+		android:text="Information"
+		android:layout_height="wrap_content"
+		android:id="@+id/sp_item_extra"
+		android:layout_alignParentLeft="true"
+		android:layout_width="wrap_content"
+		android:textSize="26sp"></TextView>
+	<TextView
+		android:id="@+id/sp_item_number"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Number"
+		android:layout_below="@+id/sp_item_extra"
+		android:layout_alignLeft="@+id/sp_item_extra"></TextView>
+	<ImageView
+		android:text="Mode"
+		android:src="@drawable/block_sms"
+		android:layout_width="wrap_content"
+		android:id="@+id/sp_item_mode"
+		android:layout_alignParentRight="true"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"></ImageView>
+
+</RelativeLayout>

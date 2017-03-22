@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+	android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:gravity="fill_vertical">
+	<TextView
+		android:text="Information"
+		android:layout_height="wrap_content"
+		android:id="@+id/sms_item_extra"
+		android:layout_alignParentLeft="true"
+		android:layout_width="wrap_content"
+		android:textSize="26sp"
+		android:gravity="bottom" />
+	<TextView
+		android:text="TextView"
+		android:id="@+id/sms_item_numb"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/sms_item_extra"
+		android:layout_alignLeft="@+id/sms_item_extra"
+		android:gravity="bottom" />
+	<TextView
+		android:layout_below="@+id/sms_item_numb"
+		android:layout_width="wrap_content"
+		android:id="@+id/sms_item_content"
+		android:layout_height="wrap_content"
+		android:text="TextView"
+		android:layout_alignLeft="@+id/sms_item_extra"
+		android:maxLength="10" />
+	<TextView
+		android:layout_toRightOf="@+id/sms_item_content"
+		android:text="..."
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignTop="@+id/sms_item_content"
+		android:layout_alignBottom="@+id/sms_item_content" />
+	<TextView
+		android:layout_width="wrap_content"
+		android:id="@+id/sms_item_date"
+		android:layout_height="wrap_content"
+		android:text="TextView"
+		android:layout_alignTop="@+id/sms_item_content"
+		android:layout_alignBottom="@+id/sms_item_content"
+		android:layout_alignParentRight="true" />
+
+</RelativeLayout>

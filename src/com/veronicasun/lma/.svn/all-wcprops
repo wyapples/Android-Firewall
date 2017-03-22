@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/11/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma
+END
+GlobalPreference.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/GlobalPreference.java
+END
+Call.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/Call.java
+END
+DatabaseProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/DatabaseProvider.java
+END
+CallList.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/CallList.java
+END
+Sms.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/Sms.java
+END
+Login.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/Login.java
+END
+LoginActivityGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/LoginActivityGroup.java
+END
+SpamList.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/SpamList.java
+END
+SmsList.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/SmsList.java
+END
+FirewallService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/11/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/FirewallService.java
+END
+SpamRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/SpamRule.java
+END
+Toggle.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/Toggle.java
+END
+MainTags.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/MainTags.java
+END
+BootReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/Leave%20Me%20Alone/src/com/veronicasun/lma/BootReceiver.java
+END

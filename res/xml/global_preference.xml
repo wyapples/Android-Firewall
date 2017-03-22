@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="Main Password">
+		<CheckBoxPreference
+			android:key="password_enable"
+			android:defaultValue="false"
+			android:title="Enable Password" />
+		<EditTextPreference
+			android:title="Set main password"
+			android:dialogTitle="Set password"
+			android:key="password_set"
+			android:dependency="password_enable"
+			android:defaultValue=""
+			android:summary="Set if you want to protect your data"
+			android:password="true" />
+
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="Call Transfer Mode">
+		<CheckBoxPreference
+			android:key="transfer_enable"
+			android:title="Enable Call Transfer "
+			android:defaultValue="false" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="Sync With Google ">
+		<CheckBoxPreference
+			android:key="sync_enable"
+			android:defaultValue="false"
+			android:summary="your database will by synced with Google Doc"
+			android:title="Enable Google Sync" />
+		<EditTextPreference
+			android:summary="for example: example@gmail.com"
+			android:title="Account Name"
+			android:key="sync_account"
+			android:dependency="sync_enable" />
+		<EditTextPreference
+			android:summary="password of your Google Account"
+			android:title="Password"
+			android:key="sync_pwd"
+			android:dependency="sync_enable"
+			android:password="true" />
+	</PreferenceCategory>
+</PreferenceScreen>

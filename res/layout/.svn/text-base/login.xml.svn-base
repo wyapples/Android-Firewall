@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bkg">
+	<ImageView
+		android:src="@drawable/logo"
+		android:layout_width="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerVertical="true"
+		android:layout_centerInParent="true"
+		android:id="@+id/login_logo"
+		android:layout_marginTop="50px"
+		android:layout_height="169px" />
+	<LinearLayout
+		android:layout_below="@+id/login_logo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1"
+		android:layout_alignLeft="@+id/login_logo"
+		android:layout_alignRight="@+id/login_logo"
+		android:gravity="center"
+		android:layout_marginTop="20px">
+		<EditText
+			android:id="@+id/login_input"
+			android:layout_height="32px"
+			android:layout_width="126px"
+			android:background="@drawable/text_input"
+			android:password="true"
+			android:singleLine="true"
+			android:paddingLeft="7px"
+			android:paddingRight="5px" />
+		<Button
+			android:id="@+id/login_button"
+			android:layout_height="32px"
+			android:layout_width="54px"
+			android:text="Login"
+			android:textColor="@color/white"
+			android:background="@drawable/button_bkg"
+			android:textStyle="bold"
+			android:gravity="center|left"
+			android:paddingLeft="5px" />
+	</LinearLayout>
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="© 2011 Veronicasun,all rights reserved."
+		android:layout_marginTop="30px"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="5px" />
+</RelativeLayout>

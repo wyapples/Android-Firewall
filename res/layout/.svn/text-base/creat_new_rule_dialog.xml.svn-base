@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/cb_dialog_root"
+	android:layout_width="fill_parent"
+	android:orientation="vertical"
+	android:layout_height="fill_parent">
+	<TextView
+		android:text="Information(Name):"
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spam_extra"></EditText>
+	<TextView
+		android:text="Phone Number:"
+		android:id="@+id/textView2"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="10px"></TextView>
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spam_num"
+		android:phoneNumber="true"></EditText>
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="10px"
+		android:text="Block Mode:"
+		android:id="@+id/TextView3"></TextView>
+	<Spinner
+	android:layout_width="match_parent"
+	android:id="@+id/spam_mode"
+	android:layout_height="wrap_content"></Spinner>
+</LinearLayout>

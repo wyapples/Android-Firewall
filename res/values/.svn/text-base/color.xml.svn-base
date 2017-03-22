@@ -1,0 +1,11 @@
+
+<resources>
+	<color
+		name="cb_unselected_bkg">#aba390</color>
+	<color
+		name="cb_selected_bkg">#a80000</color>
+	<color
+		name="black">#000000</color>
+	<color
+		name="white">#ffffff</color>
+</resources>

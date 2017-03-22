@@ -1,0 +1,49 @@
+10
+
+dir
+12
+https://leave-me-alone.googlecode.com/svn/trunk/Leave%20Me%20Alone/bin/res
+https://leave-me-alone.googlecode.com/svn
+delete
+
+
+2011-11-23T05:31:13.209306Z
+12
+wyapples
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+eecae050-3582-bc8e-aaf9-2223dd578c95
+
+drawable-hdpi
+dir
+
+
+
+delete
+
+drawable-ldpi
+dir
+
+
+
+delete
+
+drawable-mdpi
+dir
+
+
+
+delete
+
